@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: yellowgreen;
+    color: blue;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: forestgreen;
+    color: darkblue;
 }
 
 p {
