@@ -22,13 +22,13 @@ h1, h2 {
 .main-columns {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% auto;
-      grid-template-columns: 35% auto;
+  -ms-grid-columns: 35.4% auto;
+      grid-template-columns: 35.4% auto;
   position: relative;
 }
 
 .main-columns .faint-blue-box {
-  height: 80vh;
+  height: 82vh;
   background-color: rgba(61, 165, 217, 0.27);
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -36,8 +36,15 @@ h1, h2 {
   z-index: 1;
 }
 
+.main-columns .faint-blue-box img {
+  position: absolute;
+  top: 16vh;
+  right: 25vh;
+  width: 45vh;
+}
+
 .main-columns .title-subtitle-pill-container {
-  margin-top: 4em;
+  margin-top: 8em;
   margin-left: 10em;
   width: 70em;
   -webkit-box-ordinal-group: 2;
@@ -52,6 +59,7 @@ h1, h2 {
   font-weight: bold;
   font-size: 92px;
   line-height: 114px;
+  letter-spacing: 0.05ch;
   color: #00439E;
 }
 
@@ -67,14 +75,14 @@ h1, h2 {
 
 .main-columns .title-subtitle-pill-container .pill-container {
   margin-top: 5em;
-  margin-left: 13em;
-  margin-bottom: 7em;
+  margin-left: 9em;
+  margin-bottom: 5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 2em 7em;
-  width: 362px;
-  background-color: #FEC601;
+  width: 375px;
+  background-color: #E41C3B;
   border-radius: 93px;
 }
 
@@ -84,6 +92,7 @@ h1, h2 {
   font-weight: bold;
   font-size: 80px;
   line-height: 123.5%;
+  letter-spacing: 0.02ch;
   color: #EBF5EE;
 }
 
