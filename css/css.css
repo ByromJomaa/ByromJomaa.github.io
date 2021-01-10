@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.main-columns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% auto;
+      grid-template-columns: 35% auto;
+  position: relative;
+}
+
+.main-columns .faint-blue-box {
+  height: 80vh;
+  background-color: rgba(61, 165, 217, 0.27);
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  z-index: 1;
+}
+
+.main-columns .title-subtitle-pill-container {
+  margin-top: 4em;
+  margin-left: 10em;
+  width: 70em;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  z-index: 2;
+}
+
+.main-columns .title-subtitle-pill-container .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 92px;
+  line-height: 114px;
+  color: #00439E;
+}
+
+.main-columns .title-subtitle-pill-container .subtitle {
+  margin-top: 1em;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  color: #003554;
+}
+
+.main-columns .title-subtitle-pill-container .pill-container {
+  margin-top: 5em;
+  margin-left: 13em;
+  margin-bottom: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em 7em;
+  width: 362px;
+  background-color: #FEC601;
+  border-radius: 93px;
+}
+
+.main-columns .title-subtitle-pill-container .pill-container h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 123.5%;
+  color: #EBF5EE;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 11.2em;
+  padding-left: 4.8em;
+  background-color: rgba(0, 53, 84, 0.11);
+}
+
+.nav-container a {
+  color: #003554;
+  padding-left: 3.35em;
+}
+
+.nav-container ul {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #003554;
+}
+/*# sourceMappingURL=css.css.map */
